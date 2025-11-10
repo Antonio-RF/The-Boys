@@ -46,7 +46,7 @@ void chamando_lef(struct Mundo *mundo) {
                                 funcao_evento_sai(mundo, item);
                                 mundo->eventos_tratados += 1;
                                 break;
-		        case VIAJA:
+						case VIAJA:
                                 funcao_evento_viaja(mundo, item);
                                 mundo->eventos_tratados += 1;
                                 break;

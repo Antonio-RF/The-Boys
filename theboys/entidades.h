@@ -20,7 +20,7 @@ struct Heroi
         int velocidade;
         int experiencia;
         int base_atual;
-	int vivo;
+		int vivo;
 };
 
 struct Base
@@ -30,8 +30,8 @@ struct Base
         struct cjto_t *presentes;
         struct lista_t *espera;
         struct localizacao local_base;
-	int lotacao_max;
-	int participacao_missao;
+		int lotacao_max;
+		int participacao_missao;
 };
 
 struct Missao
@@ -40,8 +40,8 @@ struct Missao
         struct cjto_t *habilidade_missao;
         int perigo;
         struct localizacao local_missao;
-	int cumprida;
-	int tentativas;
+		int cumprida;
+		int tentativas;
 };
 
 struct Mundo
@@ -58,13 +58,13 @@ struct Mundo
         int nhabilidades;
         struct localizacao tamanhoMundo;
         int relogio;
-	struct fprio_t *lef;
+		struct fprio_t *lef;
 
-	int eventos_tratados;
-	int missoes_cumpridas;
-	int missoes_realizadas;
-	int maior_tentativas;
-	int tentativas;
+		int eventos_tratados;
+		int missoes_cumpridas;
+		int missoes_realizadas;
+		int maior_tentativas;
+		int tentativas;
 };
 
 #endif
